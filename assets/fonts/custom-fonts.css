@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'giga_sansbold';
+    src: url('gigasansbold/gigasansbold-webfont.woff2') format('woff2'),
+         url('gigasansbold/gigasansbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'giga_sanslight';
+    src: url('gigasanslight/gigasanslight-webfont.woff2') format('woff2'),
+         url('gigasanslight/gigasanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'giga_sansmedium';
+    src: url('gigasansmedium/gigasansmedium-webfont.woff2') format('woff2'),
+         url('gigasansmedium/gigasansmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'giga_sansregular';
+    src: url('gigasansregular/gigasansregular-webfont.woff2') format('woff2'),
+         url('gigasansregular/gigasansregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_slab700';
+    src: url('museo_slab_700/museo_slab_700.woff2') format('woff2'),
+         url('museo_slab_700/museo_slab_700.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'giga_sanssemi_bold';
+    src: url('gigasanssemibold/locomotype__gigasanssemibold.woff2') format('woff2'),
+         url('gigasanssemibold/locomotype__gigasanssemibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

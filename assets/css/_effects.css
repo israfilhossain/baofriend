@@ -1,0 +1,46 @@
+/**
+All Transitions
+*/
+a,input,img,textarea,button,
+.image-slider .sld-prev span,
+.image-slider .sld-next span{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.scale{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+/**
+All Hovers
+*/
+a:focus,button:focus,input:focus,textarea:focus{
+	outline: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.exp-btn:hover{
+	background-color: #49a2a0;
+	color: #fff;
+}
+.exp-btn.bg-pink:hover{
+	background-color: #e5508b;
+	color: #fff;
+}
+.exp-btn.bg-pink:hover{
+	background-color: #e5508b;
+	color: #fff;
+}
+.footer-form input[type="submit"]:hover{
+	background-color: #f4d57a;
+	color: #fff;
+}
+.footer-main-menu ul li a:hover{
+	color:#49a2a0;
+}

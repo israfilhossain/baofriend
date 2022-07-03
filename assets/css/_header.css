@@ -1,0 +1,117 @@
+.header {
+	position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+	background: #fff;
+	padding: 22px 0;
+	transition: all .5s;
+}
+.header.scrl{
+	padding: 15px 0;
+	box-shadow: 0px 0px 5px #535050;
+    -moz-box-shadow: 0px 0px 5px #535050;
+    -webkit-box-shadow: 0px 0px 5px #535050;
+    -o-box-shadow: 0px 0px 5px #535050;
+}
+.header-logo img{
+	transition: all .5s;
+}
+.header.scrl .header-logo img{
+	max-height: 50px;
+	transition: all .5s;
+}
+.header-logo{
+	text-align: center;
+}
+.header ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'alegreya_sanslight';
+	margin: 0 40px;
+}
+.header ul li:first-child{
+	margin-left: 0;
+}
+.header ul li:last-child{
+	margin-right: 0;
+}
+.header ul li a{
+	color: #252168;
+	display: inline-block;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+}
+.header ul li a::after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	background-color: #6dc7c5;
+	bottom: -10px;
+	display: none;
+}
+.header ul li.active a,
+.header ul li a:hover{
+	color: #6dc7c5;
+}
+.header ul li.active a::after{
+	display: block;
+}
+.heder-right-menu{
+	text-align: right;
+}
+
+.showonmobile{
+	display: none;
+}
+.mobile-menu-opener-div{
+    /*display: none;*/
+    text-align: right;
+}
+.mobile-menu-opener{
+    width: 38px;
+    display: inline-block;
+}
+.mobile-menu-opener span{
+	height: 2px;
+    width: 100%;
+    background-color: #57548c;
+    margin-bottom: 10px;
+    display: block;
+}
+.mobile-menu-opener span:last-child{
+    margin-bottom: 0;
+}
+.mobile-menu-opener:hover span{
+    background: #ae9a64;
+}
+.mobile-menu{
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #f4d57a;
+	color: #fff;
+}
+.menu-head{
+	text-align: center;
+	padding-bottom: 40px;
+	position: relative;
+	padding-top: 30px;
+}
+.menu-head img{
+	max-height: 70px;
+}
+.header-social{
+	text-align: center;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,79 @@
+.home-bnr-img{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.banner-content h1{
+    font-size: 94px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.banner-content h2{
+    font-size: 67px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.food-sec-inner{
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 180px 0;
+}
+.food-content h4{
+    text-transform: uppercase;
+}
+
+.food-content h2{
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.food-content p{
+    margin-bottom: 20px;
+}
+.food-sec{
+    margin-top: -60px;
+}
+.sec-title{
+    text-align: center;
+}
+.sec-title h3{
+    text-transform: uppercase;
+}
+
+.events-sec{
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 180px 0;
+    margin-top: -60px;
+}
+.event-list{
+    margin-top: 65px;
+}
+.event-item{
+    color: #e47fa7;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.event-item h5{
+    margin-top: 20px;
+}
+.event-item img{
+    width: 100%;
+}
+.event-item p{
+    font-size: 14px;
+    font-family: 'giga_sansmedium';
+    margin-bottom: 26px;
+}
